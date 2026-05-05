@@ -1,4 +1,3 @@
-## fraud-detection-api
 ## 💳 Credit Card Fraud Detection API
 
 A machine learning project that detects fraudulent credit card transactions using multiple classification models.  
