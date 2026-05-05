@@ -80,7 +80,7 @@ The model is deployed using FastAPI.
 
 ## 📥 Input Example
 
-
+''' json
 {
   "V1": -1.3,
   "V2": 0.2,
@@ -113,19 +113,23 @@ The model is deployed using FastAPI.
   "Time": 100000,
   "Amount": 150.0
 }
+'''
 
 ## 📥 output example
-
+'''
 {
   "fraud_probability": 0.0023,
   "prediction": 0
 }
+'''
 
-## project structure
+## Project Structure
 
+```
 fraud_project/
 │
 ├── app.py                  # FastAPI backend
+│
 ├── model/                 # Trained ML models (.pkl)
 │   ├── fraud_model.pkl
 │   ├── threshold.pkl
@@ -139,6 +143,8 @@ fraud_project/
 │   ├── Credit_card.ipynb
 │
 ├── README.md
+```
+
 
 ## ▶️ How to Run Locally
 
@@ -146,6 +152,11 @@ pip install -r requirements.txt
 uvicorn app:app --reload
 
 then open : http://127.0.0.1:8000/docs
+
+
+## Author
+
+Built by Islam soussi, an aspiring Data scientist and AI Engineer  
 
 
 
