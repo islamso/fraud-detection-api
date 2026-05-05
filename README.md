@@ -140,7 +140,7 @@ fraud_project/
 │
 ├── README.md
 
-## how to run it locally
+## ▶️ How to Run Locally
 
 pip install -r requirements.txt
 uvicorn app:app --reload
