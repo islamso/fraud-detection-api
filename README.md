@@ -1,7 +1,7 @@
 ## 💳 Credit Card Fraud Detection API
 
 A machine learning project that detects fraudulent credit card transactions using multiple classification models.  
-The best-performing model is deployed as a **FastAPI REST API** for real-time predictions.
+The best-performing model is deployed as a **FastAPI REST API** for real-time detections.
 
 ---
 
