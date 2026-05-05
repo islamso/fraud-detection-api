@@ -80,7 +80,8 @@ The model is deployed using FastAPI.
 
 ## 📥 Input Example
 
-''' json
+json
+```
 {
   "V1": -1.3,
   "V2": 0.2,
@@ -113,15 +114,15 @@ The model is deployed using FastAPI.
   "Time": 100000,
   "Amount": 150.0
 }
-'''
+```
 
 ## 📥 output example
-'''
+```
 {
   "fraud_probability": 0.0023,
   "prediction": 0
 }
-'''
+```
 
 ## Project Structure
 
