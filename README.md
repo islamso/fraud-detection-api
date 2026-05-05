@@ -1,12 +1,12 @@
-# fraud-detection-api
-# 💳 Credit Card Fraud Detection API
+## fraud-detection-api
+## 💳 Credit Card Fraud Detection API
 
 A machine learning project that detects fraudulent credit card transactions using multiple classification models.  
 The best-performing model is deployed as a **FastAPI REST API** for real-time predictions.
 
 ---
 
-# 🚀 Project Overview
+## 🚀 Project Overview
 
 This project aims to detect fraudulent transactions using supervised machine learning techniques.  
 It includes data preprocessing, feature engineering, model training, evaluation, and deployment as an API.
@@ -17,14 +17,14 @@ The final system exposes a REST API that returns:
 
 ---
 
-# 🧠 Problem Statement
+## 🧠 Problem Statement
 
 Credit card fraud is a major issue in financial systems.  
 The goal is to accurately identify fraudulent transactions while minimizing false positives.
 
 ---
 
-# ⚙️ Tech Stack
+## ⚙️ Tech Stack
 
 - Python 🐍
 - Pandas & NumPy
@@ -36,7 +36,7 @@ The goal is to accurately identify fraudulent transactions while minimizing fals
 
 ---
 
-# 📊 Machine Learning Models
+## 📊 Machine Learning Models
 
 The following models were trained and evaluated:
 
@@ -51,7 +51,7 @@ The final model was selected based on:
 
 ---
 
-# 🧪 Feature Engineering
+## 🧪 Feature Engineering
 
 Key transformations applied:
 
@@ -63,7 +63,7 @@ Key transformations applied:
 
 ---
 
-# 🏆 Final Model
+## 🏆 Final Model
 
 The best-performing model is:
 
@@ -73,12 +73,12 @@ It was tuned using hyperparameter optimization and handles class imbalance effec
 
 ---
 
-# 🌐 API Usage
+## 🌐 API Usage
 
 The model is deployed using FastAPI.
 
 
-# 📥 Input Example
+## 📥 Input Example
 
 ```json
 {
@@ -114,14 +114,14 @@ The model is deployed using FastAPI.
   "Amount": 150.0
 }
 
-# 📥 output example
+## 📥 output example
 
 {
   "fraud_probability": 0.0023,
   "prediction": 0
 }
 
-# project structure
+## project structure
 
 fraud_project/
 │
@@ -139,5 +139,12 @@ fraud_project/
 │   ├── Credit_card.ipynb
 │
 ├── README.md
+
+## how to run it locally
+
+pip install -r requirements.txt
+uvicorn app:app --reload
+
+then open : http://127.0.0.1:8000/docs
 
 
