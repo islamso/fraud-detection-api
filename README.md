@@ -78,9 +78,7 @@ It was tuned using hyperparameter optimization and handles class imbalance effec
 The model is deployed using FastAPI.
 
 
----
-
-## 📥 Input Example
+# 📥 Input Example
 
 ```json
 {
@@ -116,14 +114,14 @@ The model is deployed using FastAPI.
   "Amount": 150.0
 }
 
-## 📥 output example
+# 📥 output example
 
 {
   "fraud_probability": 0.0023,
   "prediction": 0
 }
 
-## project structure
+# project structure
 
 fraud_project/
 │
