@@ -38,7 +38,10 @@ This system follows an end-to-end machine learning pipeline:
 ---
 ## ⚙️ Tech Stack
 
-- Python 🐍
+- Python
+- Matplotlib
+- Seaborn
+- Scipy
 - Pandas & NumPy
 - Scikit-learn
 - XGBoost
