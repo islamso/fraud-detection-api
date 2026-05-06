@@ -2,11 +2,6 @@
 
 This project is a machine learning-based fraud detection system that identifies fraudulent credit card transactions using anonymized financial data. It is deployed as a real-time REST API for live inference.
 
----
-## 🚀 Live Demo
-
-API Documentation (Swagger UI):
-👉 https://fraud-detection-api-7tf0.onrender.com/docs
 
 ---
 ## 🚀 Project Overview
