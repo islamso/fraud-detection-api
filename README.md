@@ -5,9 +5,14 @@ This project is a machine learning-based fraud detection system that identifies 
 
 ---
 ## 🚀 Project Overview
-
-This project aims to detect fraudulent transactions using supervised machine learning techniques.  
+  
+This project aims to detect fraudulent credit card transactions using machine learning techniques. The goal is to reduce financial losses for institutions while maintaining a smooth and secure customer experience.
 It includes data preprocessing, feature engineering, model training, evaluation, and deployment as an API.
+
+The model focuses on optimizing the F1-score, ensuring a balance between:
+
+Detecting fraud cases (high recall)
+Minimizing false positives (good precision)
 
 The final system exposes a REST API that returns:
 - Fraud probability
