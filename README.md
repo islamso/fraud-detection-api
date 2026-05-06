@@ -1,10 +1,14 @@
-## 💳 Credit Card Fraud Detection API
+# 💳 Credit Card Fraud Detection System (End-to-End AI Project)
 
-A machine learning project that detects fraudulent credit card transactions using multiple classification models.  
-The best-performing model is deployed as a **FastAPI REST API** for real-time detections.
+This project is a machine learning-based fraud detection system that identifies fraudulent credit card transactions using anonymized financial data. It is deployed as a real-time REST API for live inference.
 
 ---
+## 🚀 Live Demo
 
+API Documentation (Swagger UI):
+👉 https://fraud-detection-api-7tf0.onrender.com/docs
+
+---
 ## 🚀 Project Overview
 
 This project aims to detect fraudulent transactions using supervised machine learning techniques.  
@@ -18,11 +22,25 @@ The final system exposes a REST API that returns:
 
 ## 🧠 Problem Statement
 
-Credit card fraud is a major issue in financial systems.  
+Credit card fraud is a major issue in modern financial systems, causing significant financial losses for banks and customers.
+It also affects trust and reliability in digital payment systems. So Detecting fraudulent transactions in real time is therefore a critical requirement 
 The goal is to accurately identify fraudulent transactions while minimizing false positives.
 
 ---
 
+## ⚙️ Solution Overview
+
+This system follows an end-to-end machine learning pipeline:
+
+- Data preprocessing and cleaning  
+- Exploratory Data Analysis (EDA)  
+- Feature engineering  
+- Model training and evaluation  
+- Hyperparameter tuning  
+- Threshold optimization  
+- Deployment as a REST API
+
+---
 ## ⚙️ Tech Stack
 
 - Python 🐍
@@ -74,7 +92,8 @@ It was tuned using hyperparameter optimization and handles class imbalance effec
 
 ## 🌐 API Usage
 
-The model is deployed using FastAPI.
+The model is deployed using FastAPI for serving real-time detections.
+It can be run locally for testing or accessed online through a cloud deployment on Render.
 
 
 ## 📥 Input Example
@@ -141,6 +160,8 @@ fraud_project/
 │
 ├── notebooks/             # Training notebook
 │   ├── Credit_card.ipynb
+│ 
+├── requirements.txt        # Dependencies for deployment
 │
 ├── README.md
 ```
@@ -152,6 +173,21 @@ pip install -r requirements.txt
 uvicorn app:app --reload
 
 then open : http://127.0.0.1:8000/docs
+
+## 🌍 How to Run Online
+
+The project is deployed using Render.
+
+Once deployed, the API is accessible via:
+
+https://fraud-detection-api-7tf0.onrender.com/docs
+
+You can:
+
+Open the link in a browser
+Use the /predict endpoint via Swagger UI
+Send transaction data (V1–V28, Time, Amount)
+Receive real-time fraud detection results
 
 
 ## Author
