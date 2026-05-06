@@ -30,7 +30,8 @@ This system follows an end-to-end machine learning pipeline:
 - Data preprocessing and cleaning  
 - Exploratory Data Analysis (EDA)  
 - Feature engineering  
-- Model training and evaluation  
+- Model training and evaluation
+- Applied class weighting techniques to handle imbalanced dataset 
 - Hyperparameter tuning  
 - Threshold optimization  
 - Deployment as a REST API
