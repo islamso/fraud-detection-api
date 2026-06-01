@@ -32,8 +32,8 @@ The goal is to accurately identify fraudulent transactions while minimizing fals
 
 This system follows an end-to-end machine learning pipeline:
 
-- Data preprocessing and cleaning  
-- Exploratory Data Analysis (EDA)  
+- Exploratory Data Analysis (EDA)   
+- Data preprocessing and cleaning 
 - Feature engineering  
 - Model training and evaluation
 - Applied class weighting techniques to handle imbalanced dataset 
@@ -76,11 +76,11 @@ The final model was selected based on:
 
 Key transformations applied:
 
-- ⏰ Time-based features (Hour extraction)
-- 🔁 Cyclical encoding (sin/cos for time)
-- 📉 Log transformation of transaction amount
-- 📊 Z-score normalization
-- ⚠️ Binary feature for small transactions
+- Time-based features (Hour extraction)
+- Cyclical encoding (sin/cos for time)
+- Log transformation of transaction amount
+- Z-score normalization
+- Binary feature for small transactions
 
 ---
 
