@@ -68,7 +68,7 @@ The following models were trained and evaluated:
 The final model was selected based on:
 - F1-score
 - ROC-AUC
-- Precision/Recall balance
+
 
 ---
 
